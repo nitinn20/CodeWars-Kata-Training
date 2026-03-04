@@ -1,9 +1,8 @@
-def wave(people):
-    wave=[]
-    for i in range(len(people)):
-        res=people[:i]+people[i].upper()+people[i+1:]
-        if res!=people:
-            wave.append(res)
-    return wave    
-        
-        
+def wave(s):
+    l=[]
+    for i in range(len(s)):
+        res = ''
+        res = s[:i]+ s[i].upper() + s[i+1:]
+        if s != res:
+            l.append(res)
+    return l
