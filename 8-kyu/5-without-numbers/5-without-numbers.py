@@ -1,2 +1,3 @@
 def unusual_five():
-    return len('nitin')
+    a='hhhhh'
+    return len(a)
