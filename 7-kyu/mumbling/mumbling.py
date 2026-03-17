@@ -1,10 +1,10 @@
 def accum(st):
-    s=[]
+    res = []
     for i in range(len(st)):
-        s.append(st[i].lower()*(i+1))
-    p=[] 
-    for i in s:
+        res.append(st[i].lower()*(i+1)) 
+    p = []
+    for i in res:
         p.append(i[0].upper()+i[1:])
-    return ("-".join(p))    
-   
-        
+    return ("-".join(p))
+    
+    
